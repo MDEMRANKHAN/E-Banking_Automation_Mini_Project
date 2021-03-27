@@ -19,7 +19,7 @@ public class LoginTest extends BassClass{
 	@Test(priority=1)
 	public void loginApplication() throws Exception {
 		
-		
+		// this url is for md 
 		logger=report.createTest("Login To CRM");
 		LoginPage loginPage=PageFactory.initElements(driver, LoginPage.class);
 		logger.info("Starting Application");
